@@ -23,7 +23,12 @@ body{
 
 /* ------------------------HEADER----------------------------- */
 
+header {
+font-size: 32px; 
+padding: 20px; 
+color: $secondaryColor; 
 
+}
 
 
 
@@ -51,10 +56,11 @@ float: left;
 list-style-type: none; 
 width: 25%; 
 padding: 15px; 
-color: $white; 
+color: $fontColor; 
 
 a:hover {
-text-decoration: underline; 
+background-color: $primaryColor; 
+width: 100%;  
     
     
     
@@ -93,7 +99,7 @@ main {
 /* ------------------------FOOTER----------------------------- */
 
 div#wrapperFooter {
-    background-color: $thirdColor;
+   // background-color: $thirdColor;
     z-index: 999;
     box-shadow: 2px 2px 10px 0px #666666; 
     height: 75px; 
@@ -104,19 +110,19 @@ div#wrapperFooter {
 
 
 footer {
-    background-color: $thirdColor; 
+   // background-color: $thirdColor; 
     height: 75px;   
     margin-top: 100px;
    
     
     p {  
-      color: $white; 
+ //     color: $white; 
       padding: 2rem 0;     
       font-size: .9rem;
       text-align: center; 
      
       p a {
-        color: $white;  
+      //  color: $white;  
          
      } 
 
